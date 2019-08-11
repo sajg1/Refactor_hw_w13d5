@@ -1,4 +1,5 @@
-const PubSub = require('../helpers/pub_sub.js');
+// const PubSub = require('../helpers/pub_sub.js');
+import {PubSub} from '../helpers/pub_sub.js';
 
 class SelectView {
   constructor(element) {
@@ -50,5 +51,5 @@ class SelectView {
 //     this.element.appendChild(option);
 //   });
 // };
-
-module.exports = SelectView;
+export {SelectView};
+// module.exports = SelectView;

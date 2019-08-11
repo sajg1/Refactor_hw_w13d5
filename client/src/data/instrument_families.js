@@ -25,5 +25,5 @@ const instrumentFamilies = [
     instruments: ['piano', 'organ', 'electronic keyboard', 'synthesizer']
   }
 ];
-
-module.exports = instrumentFamilies;
+ export {instrumentFamilies};
+// module.exports = instrumentFamilies;
